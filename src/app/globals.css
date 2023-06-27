@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-dark-rgb:#082f49;
+  --background-light-rgb: #0c4a6e;
+  --background-darker-rgb: #164e63;
+}
+
+body{
+  background-color: var(--background-light-rgb);
+}
+
+.footer{
+  background-color: var(--background-darker-rgb);
+}
+
+.links{
+  @apply text-white hover:text-gray-500 transition ease-in-out duration-300
+  delay-75
+}
